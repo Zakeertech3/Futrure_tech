@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureTech 2025 - Tech Conference</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">FutureTech 2025</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>FutureTech 2025</h1>
+            <h2>Shaping Tomorrow's Technology Today</h2>
+            <p class="event-details">
+                <span><i class="fas fa-calendar"></i> March 15-17, 2025</span>
+                <span><i class="fas fa-map-marker-alt"></i> San Francisco, CA</span>
+            </p>
+            <a href="#register" class="cta-button">Register Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About The Conference</h2>
+            <div class="about-content">
+                <p>Join us for three days of groundbreaking innovations, thought-provoking discussions, and unparalleled networking opportunities at FutureTech 2025. Experience the convergence of artificial intelligence, blockchain, quantum computing, and more as we explore the technologies that will shape our future.</p>
+                <div class="highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-users"></i>
+                        <h3>50+ Speakers</h3>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-desktop"></i>
+                        <h3>30+ Sessions</h3>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-comments"></i>
+                        <h3>Networking</h3>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Workshops</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers" class="speakers">
+        <div class="container">
+            <h2 class="section-title">Featured Speakers</h2>
+            <div class="speaker-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="images/speaker1.jpg" alt="Sarah Johnson">
+                    </div>
+                    <div class="speaker-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="speaker-role">AI Research Director, TechCorp</p>
+                        <p class="speaker-talk">Keynote: The Future of AI in 2025 and Beyond</p>
+                    </div>
+                </div>
+                <!-- More speaker cards will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2 class="section-title">Conference Schedule</h2>
+            <div class="schedule-tabs">
+                <button class="tab-button active" data-day="1">Day 1</button>
+                <button class="tab-button" data-day="2">Day 2</button>
+                <button class="tab-button" data-day="3">Day 3</button>
+            </div>
+            <div class="schedule-content">
+                <!-- Schedule content will be populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <div class="container">
+            <h2 class="section-title">Register Now</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Early Bird</h3>
+                    <div class="price">$499</div>
+                    <ul class="features">
+                        <li>All Conference Sessions</li>
+                        <li>Workshop Access</li>
+                        <li>Networking Events</li>
+                        <li>Conference Materials</li>
+                    </ul>
+                    <button class="register-button">Register Now</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>VIP Pass</h3>
+                    <div class="price">$799</div>
+                    <ul class="features">
+                        <li>All Early Bird Features</li>
+                        <li>VIP Lounge Access</li>
+                        <li>Exclusive Speaker Meet & Greet</li>
+                        <li>Priority Seating</li>
+                    </ul>
+                    <button class="register-button">Register Now</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Student</h3>
+                    <div class="price">$299</div>
+                    <ul class="features">
+                        <li>All Conference Sessions</li>
+                        <li>Workshop Access</li>
+                        <li>Student Networking Event</li>
+                        <li>Conference Materials</li>
+                    </ul>
+                    <button class="register-button">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Venue Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> San Francisco Convention Center</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@futuretech2025.com</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">FutureTech 2025</div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FutureTech Conference. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
